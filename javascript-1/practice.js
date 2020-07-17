@@ -72,6 +72,10 @@ function oddChecker (num){
 
 //Code Here
 
+const iLove = (name, love) => {
+	return `${name} loves ${love}`
+}
+
 //////////////////PROBLEM 8////////////////////
 
 // Create a copy of the faveColors array called 'colorCopy' using slice.
