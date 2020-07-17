@@ -6,6 +6,8 @@
 
 // CODE HERE
 
+let faveColors = `red, blue, purple`
+
 //////////////////Step 2////////////////////
 // Create an object called 'me' that has these keys: firstName, superHeroName, homeTown, superPowers, superPowerXP, and profileImage. 
 
