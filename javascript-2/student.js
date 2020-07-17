@@ -6,7 +6,7 @@
 
 // Code Here
 
-const lovesCode = true
+let lovesCode = true
 
 //////////////////STEP 2////////////////////
 //Create a variable called 'age' that has a value equal to your age as a number. 
@@ -27,7 +27,7 @@ const name  = `Kody`
 
 // Code Here
 
-const phrase = ``
+let phrase = ``
 
 //////////////////STEP 5////////////////////
 //Create an if statement that checks to see if the lovesCode variable is equal to true. If it is, set the phrase variable created above to 'I love code', it it's not true set the phrase variable to 'I do not love to code'
