@@ -51,9 +51,21 @@ function lovesCodeChecker (x){
 //Code here
 
 function oddChecker (num){
-	
+	if (num %2 == 1){
+		return `the number is odd`
+	} else {
+		return `the number is even`
+	}
 }
 
+// for (let i = 0; i < num.length; i++) {
+// 	if (num[i] % 2 == 1  ) {
+// 	  return `this number is odd`
+// 	} else {
+// 		return `this number is even`
+// 	}
+// 	}
+//    return num
 //////////////////PROBLEM 7////////////////////
 
 // Create a function called 'iLove' that takes in two string parameters, 'name' and 'love'. Have the function take the two parameters and return a string that says "NAMEPARAM loves LOVEPARAM" with the appropriate parameters in the string. e.g. "Joseph loves music"
