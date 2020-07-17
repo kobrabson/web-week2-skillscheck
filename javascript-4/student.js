@@ -78,3 +78,10 @@ let setPowers = (arr) => {
 //Lastly, create a function called 'redactInfo' that will take in an object called 'obj' as a parameter. Now, imagine your super hero needs to go undercover, and you need to remove all info about them. That is what this function will do. In your function, loop over the obj parameter passed in, and change each keys value to 'redacted'. Outside of the loop but still in the redactInfo function, run the function redacted() which is a function we created that will update the text on the screen.
 
 // CODE HERE
+
+let redactInfo = (obj) => {
+    for (let i = 0; i > obj.length; i++){
+        return obj[i] = `redacted`
+    }
+    redacted()
+}
