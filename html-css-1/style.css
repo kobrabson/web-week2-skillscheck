@@ -1,0 +1,98 @@
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+
+header {
+    background-color: grey;
+    height: 10vh;
+    width: 100vw;
+    position: relative;
+}
+
+section{
+    width: 100vw;
+    height: 50vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section > p {
+    color: yellow;
+    margin: 0;
+    font-size: 64px;
+    font-weight: bold;
+}
+
+main{
+    width: 100vw;
+    height: 120vh;
+}
+
+footer{
+    width: 100vw;
+    height: 10vh;
+    background-color: blue;
+    display: flex;
+}
+
+.main-div{
+    width: 100vw;
+    height: 33vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.rounded-squares {
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;
+    background-color: teal;
+}
+
+.rect{
+    height: 200px;
+    width: 400px;
+    background-color: tomato;
+    margin: top 30px;
+}
+
+header > button {
+    position: relative;
+    left: 1100px;
+    margin:  2px;
+}
+
+header > div {
+    font-size: 24px;
+    top: 10px;
+    left: 20px;
+
+}
+
+.pic {
+    height: 200px;
+    width: 400px;
+    background-color: violet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article {
+    height: 200px;
+    width: 400px;
+  
+}
+
+.el {
+    height: 90%;
+    width: 80%;
+    background-color: sienna;
+}
