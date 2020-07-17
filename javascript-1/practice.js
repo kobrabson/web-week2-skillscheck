@@ -4,11 +4,15 @@
 
 // Code here
 
+const myName = `Kody`
+
 //////////////////PROBLEM 2////////////////////
 
 // Create a variable called 'faveNum' with a value that is your favorite number. 
 
 //Code here
+
+const faveNum = 7
 
 //////////////////PROBLEM 3////////////////////
 
@@ -16,11 +20,15 @@
 
 //Code here
 
+const lovesCode = true
+
 //////////////////PROBLEM 4////////////////////
 
 // Create a function called 'sum' that takes in two parameters, 'num1' and 'num2'. The function should return the sum of the two parameters.
 
 //Code here
+
+const sum = (num1, num2) => num1 + num2
 
 //////////////////PROBLEM 5////////////////////
 
@@ -28,11 +36,23 @@
 
 //Code here
 
+function lovesCodeChecker (x){
+	if (x === true){
+		return true
+	} else {
+		return false
+	}
+}
+
 //////////////////PROBLEM 6////////////////////
 
 // Create a function called 'oddChecker' that takes in one parameter, 'num'. Your function should check to see if the parameter is even or odd. If the parameter is odd, return 'the number is odd'. If the number is even, return 'the number is even'.
 
 //Code here
+
+function oddChecker (num){
+	
+}
 
 //////////////////PROBLEM 7////////////////////
 
