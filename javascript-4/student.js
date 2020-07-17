@@ -11,6 +11,15 @@ let faveColors = `red, blue, purple`
 //////////////////Step 2////////////////////
 // Create an object called 'me' that has these keys: firstName, superHeroName, homeTown, superPowers, superPowerXP, and profileImage. 
 
+let me = {
+    firstName: `Kody`,
+    superHeroName: `Time Stamp`,
+    homeTown: `Austin, Texas`,
+    superPowers: `control over time and space`,
+    superPowerXP: `over 9000!!!`,
+    profileImage: `that's a secret`
+}
+
 // The firstName key should have a value of your name as a string. 
 
 // The superHeroName key should be your name if you were a super hero. Feel free to jazz it up and get silly with it, e.g. "Thunderous Gas Man". 
