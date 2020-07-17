@@ -191,8 +191,8 @@ let total = myNumbers.reduce(function(acc, cur){
 
 // Code Here
 
- let myNumbersIndex = [0,1,2,3,4]
- myNumbersIndex = myNumbers.forEach([i])
+//  let myNumbersIndex = [0,1,2,3,4]
+//  myNumbersIndex = myNumbers.forEach([i])
 
 //////////////////PROBLEM 18////////////////////
 
@@ -200,6 +200,10 @@ let total = myNumbers.reduce(function(acc, cur){
 const notGeorge = ['Louis', 'Ted', 'Bill', 'Sharon', 'Mark', 'Angela']
 
 // Code Here
+
+let forTheLoveOfGeorge = notGeorge.map(function(el, i, arr){
+	return el = `George`
+})
 
 //////////////////PROBLEM 19////////////////////
 
@@ -214,6 +218,10 @@ const people = [
 ]
 
 // Code Here
+
+let enemies = people.filter(function(el, i, arr){
+	return el.friend !== true
+})
 
 //////////////////PROBLEM 20////////////////////
 
