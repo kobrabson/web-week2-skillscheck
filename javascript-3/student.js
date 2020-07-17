@@ -6,6 +6,8 @@
 
 // Code Here
 
+let groceries = [`cream`, `vanilla`, `sugar`]
+
 //////////////////STEP 2////////////////////
 //Create a variable called 'yourName' that is assigned the value of your name as a string. 
 
