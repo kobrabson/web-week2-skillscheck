@@ -36,6 +36,10 @@ let addItem = (item) => {
 //Create a function called 'removeItem' that takes in one parameter called 'index'. Inside of the removeItem function, remove the item that corresponds to the index parameter from the groceries array above by using splice. Then, invoke the displayData() function inside of your removeItem function.
 
 // Code Here
+let removeItem = (index) => {
+    groceries.splice(index, 1)
+    displayData()
+}
 
 //////////////////STEP 6////////////////////
 //Create a function called 'checkGroceryCount'. Inside of checkGroceryCount, you're going to check the total number of groceries in your groceries array using .length. Using an if/else statement, check if the number of groceries is greater than or equal to 5. If it is, return the string 'That looks like a big trip' from the function. If the number of groceries is equal to one, return the string '1 item'. If the amount of groceries is between 1 and 5, return the string 'NUMBEROFGROCERIES items' with NUMBEROFGROCERIES replaced by the number of items in your groceries array.
