@@ -228,3 +228,8 @@ let enemies = people.filter(function(el, i, arr){
 // Using the people array above, get a total of the awesomeLevel from all the people, and store that value in a variable named 'totallyAwesome'. Use .reduce().
 
 // Code Here
+
+let totallyAwesome = people.reduce((acc, cur) => {
+	acc += cur.awesomeLevel
+	return acc
+} , 0)
