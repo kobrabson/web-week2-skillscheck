@@ -91,6 +91,8 @@ let colorCopy = faveColors.slice(0)
 
 //Code Here
 
+colorCopy.push(`blue`)
+
 //////////////////PROBLEM 10////////////////////
 
 // Create a new array called 'middleNums' from the numbers array that will capture only the middle numbers (2, 3, 4).
