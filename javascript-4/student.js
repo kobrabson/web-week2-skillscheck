@@ -52,6 +52,16 @@ let homeTown = me.homeTown
 
 // CODE HERE
 
+let setColor = (arr) => {
+    arr.splice (3)
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] === `blue`){
+            return `#4d4dff`
+        }
+    }
+    background()
+}
+
 //////////////////Step 5////////////////////
 //Create a function called 'setPowers' that takes in 'arr' as a parameter. In your setPowers function, loop over the arr parameter and run a function we created called createLi(), which will take each item of the array as an argument. Remember, you did not create the createLi function. The createLi function is a function we created that determines how the content is displayed.
 
