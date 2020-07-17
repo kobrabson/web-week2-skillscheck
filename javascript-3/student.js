@@ -46,5 +46,15 @@ let removeItem = (index) => {
 
 // Code Here
 
+let  checkGroceryCount = () => {
+    if (groceries.length >= 5) {
+        return `That looks like a big trip`
+    } else if (groceries.length === 1){
+        return `1 item`
+    } else if (groceries.length > 1 && groceries.length < 5){
+        return `${groceries.length} items`
+    }
+}
+
 //////////////////STEP 6////////////////////
 // Refresh the index.html page. You should now see the same thing you saw when you first loaded the page but you should now be able to add items to your grocery list with a dynamic total showing. If you double click on an item, it should remove that item
