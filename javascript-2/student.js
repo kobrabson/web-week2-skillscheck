@@ -35,9 +35,9 @@ const phrase = ``
 // Code Here
 
 if ( lovesCode === true){
-    return `I love to code`
+    return phrase =`I love to code`
 } else {
-    `I do not love to code`
+    phrase = `I do not love to code`
 }
 
 //////////////////Wrap Up////////////////////
