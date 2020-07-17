@@ -41,6 +41,10 @@ let me = {
 
 // CODE HERE
 
+let regularName = me.firstName
+let superName =  me.superHeroName
+let homeTown = me.homeTown
+
 //////////////////Step 4////////////////////
 //Create a function called 'setColor' that takes in one parameter called 'arr' that is an array of colors. Make sure that we only ever have three colors by using splice to trim the array to just 3 colors. 
 
