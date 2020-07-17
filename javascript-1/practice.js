@@ -123,13 +123,13 @@ const me = {
 
 // Code here
 
-const bigOrSmall = (arr) => {
-	let answers = [];
-	for (let i = 0; i < arr.length; i++) {
+let bigOrSmall = (arr) => {
+	let answers = []
+	for (let i = 0; i > answers.length; i++) {
 		if (arr[i] > 100){
-			return arr.splice([i], 1, `big`)
+			return arr.push(`big`)
 		} else if (arr[i] <= 100) {
-			return arr.splice([i], 1, `small`)
+			return arr.push(`small`)
 		}
 		
 	}
@@ -141,6 +141,13 @@ const bigOrSmall = (arr) => {
 // Create a function called 'arrayReverser' that takes in one parameter, 'arr'. Inside of arrayReverser, create an empty array called 'reversed'. Using a for loop, loop over the passed in array IN REVERSE (this means your counter should decrement), and then add each item to the 'reversed' array variable you created. Finally, return the 'reversed' array variable. 
 
 //Code Here
+
+let arrayReverser = (arr) => {
+	let reversed = [1, 2, 3]
+	const array = reversed.reverse()
+	return reversed
+}
+
 
 //////////////////PROBLEM 14 - 18 Setup////////////////////
 
