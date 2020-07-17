@@ -6,6 +6,8 @@
 
 // Code Here
 
+const lovesCode = true
+
 //////////////////STEP 2////////////////////
 //Create a variable called 'age' that has a value equal to your age as a number. 
 
