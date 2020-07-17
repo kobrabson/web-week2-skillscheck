@@ -13,6 +13,8 @@ const lovesCode = true
 
 // Code Here
 
+const age = 26
+
 //////////////////STEP 3////////////////////
 //Create a variable called 'name' and assign it a value of your name as a string.  
 
