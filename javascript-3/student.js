@@ -20,7 +20,7 @@ let yourName = `Kody`
 
 // Code Here
 
-let setGroceryListTitle = (x) => `XPARAM's Grocery List`
+let setGroceryListTitle = (x) => `${yourName} Grocery List`
 
 //////////////////STEP 4////////////////////
 //Create a function called 'addItem' that takes in one parameter called 'item'. Add the item parameter to the end of the groceries array created above. Inside of addItem, invoke displayData() which is a function you did not create (we did) that takes care of some of the work for getting your page to display correctly.
@@ -28,7 +28,7 @@ let setGroceryListTitle = (x) => `XPARAM's Grocery List`
 // Code Here
 
 let addItem = (item) => {
-    addItem.push(item)
+    groceries.push(item)
     displayData()
 }
 
