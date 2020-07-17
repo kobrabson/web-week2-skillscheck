@@ -124,8 +124,8 @@ const me = {
 // Code here
 
 let bigOrSmall = (arr) => {
-	let answers = []
-	for (let i = 0; i > answers.length; i++) {
+	let answers = [1, 2, 200, 3, 300]
+	for (let i = 0; i > arr.length; i++) {
 		if (arr[i] > 100){
 			return arr.push(`big`)
 		} else if (arr[i] <= 100) {
@@ -161,11 +161,19 @@ const myNumbers = [3, 55, 788, 2, 1]
 
 // Code Here
 
+const doubled = myNumbers.map(function(num){
+	return num *= 2
+}) 
+
 //////////////////PROBLEM 15////////////////////
 
 // Now, use .filter to create a new array containing any numbers that are greater than 100. Call the new array 'filtered'. 
 
 // Code Here
+
+const filtered = myNumbers.filter(function(el, i, arr){
+	return el > 100
+})
 
 //////////////////PROBLEM 16////////////////////
 
@@ -173,11 +181,18 @@ const myNumbers = [3, 55, 788, 2, 1]
 
 // Code Here
 
+let total = myNumbers.reduce(function(acc, cur){
+	return acc + cur
+})
+
 //////////////////PROBLEM 17////////////////////
 
 // Finally, use .forEach to find the index of each item in the array. To begin, create an empty array called 'myNumbersIndex'. Then, use forEach to push each item's index from the myNumbers array into the newly created myNumbersIndex array. 
 
 // Code Here
+
+ let myNumbersIndex = [0,1,2,3,4]
+ myNumbersIndex = myNumbers.forEach([i])
 
 //////////////////PROBLEM 18////////////////////
 
